@@ -1,0 +1,8 @@
+# Plain `pip install -r` gets PyPI torch (often CUDA on Linux → CMake needs a CUDA toolkit).
+# Makefile `make deps` uses the CPU index by default. For manual CPU torch:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch
+pybind11
+setuptools
+wheel
+numpy
