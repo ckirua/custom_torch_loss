@@ -1,0 +1,32 @@
+# Python
+.venv/
+
+# CMake / C++
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.ninja
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.eggs/
+dist/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Extension artifacts (in-tree builds)
+*.so
+*.pyd
+
+# Editors
+.idea/
+.vscode/
+*.swp
